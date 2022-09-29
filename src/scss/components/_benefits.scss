@@ -1,0 +1,36 @@
+.benefits {
+  background-color: #f6f6f6;
+  padding: 70px 65px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+  &__items {
+    width: 277px;
+    text-align: center;
+  }
+
+  &__experience {
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0d0d0d;
+  }
+
+  &__descr {
+    margin: 0;
+    margin-top: 26px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #0d0d0d;
+
+    a {
+      font-family: 'Roboto';
+      color: #ff0000;
+      text-decoration: underline;
+    }
+  }
+}
