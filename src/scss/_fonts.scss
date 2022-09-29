@@ -1,1 +1,5 @@
-// @include font-face("Muller", "../fonts/MullerRegular", 400, normal);
+@include font-face("Roboto", "../fonts/RobotoRegular", 400, normal);
+@include font-face("Museo", "../fonts/MuseoLight", 300, normal);
+@include font-face("Museo", "../fonts/MuseoBold", 700, normal);
+@include font-face("Museo", "../fonts/MuseoMedium", 500, normal);
+@include font-face("Museo", "../fonts/MuseoRegular", 400, normal);
