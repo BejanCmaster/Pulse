@@ -50,6 +50,7 @@
     min-height: 440px;
     border: 2px solid #e8e8e8;
     padding: 20px 20px 26px 20px;
+    overflow: hidden;
 
     &__img {
       display: block;
@@ -113,6 +114,34 @@
       font-weight: 700;
       font-size: 20px;
       color: #050505;
+    }
+
+    &__wrapper {
+      display: flex;
+      width: calc(200% + 40px);
+    }
+
+    &__content {
+      width: 50%;
+      margin-right: 20px;
+      transform: translateX(-100%);
+      transition: 0.5s all;
+      &--active {
+        transform: translateX(0%);
+        margin-right: 20px;
+      }
+    }
+
+    &__list {
+      width: 50%;
+      margin-left: 20px;
+      transform: translateX(0%);
+      padding-right: 20px;
+      transition: 0.5s all;
+      &--active {
+        transform: translateX(-100%);
+        margin-left: 0;
+      }
     }
   }
 }
