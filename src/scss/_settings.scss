@@ -116,6 +116,14 @@ a {
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+
+  &_mini {
+    width: 131px;
+    height: 40px;
+    font-size: 14px;
+  }
 
   &_main {
     margin-top: 67px;
@@ -142,4 +150,8 @@ a {
   text-transform: uppercase;
   text-align: center;
   color: #0D0D0D;
+
+  &__catalog {
+    font-weight: 400;
+  }
 }
